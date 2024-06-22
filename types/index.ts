@@ -57,3 +57,10 @@ export interface SearchManuFacturerProps {
   manufacturer: string;
   setManuFacturer: (manufacturer: string) => void;
 }
+export interface SearchParams {
+  manufacturer?: string;
+  year?: string;
+  model?: string;
+  limit?: string;
+  fuel?: string;
+}
